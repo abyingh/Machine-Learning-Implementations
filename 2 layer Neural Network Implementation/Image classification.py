@@ -114,4 +114,4 @@ def two_layer_network(x, y, x_test, y_test, hidden_neurons, lr, epsilon):
 
     return r2_training
 
-two_layer_network(x_train, y_train, x_test, y_test, 3, 0.01, 1e-1)
+two_layer_network(x_train, y_train, x_test, y_test, 3, 0.01, 1e-5)
